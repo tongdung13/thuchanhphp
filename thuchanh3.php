@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<meta http-equiv="Content-Type" content="text/css; chatset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; chatset=utf-8"/>
 <style>
     table {
         border-collapse: collapse;
