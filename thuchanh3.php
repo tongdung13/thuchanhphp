@@ -14,7 +14,7 @@
     }
 </style>
 <body>
-<table border="0">
+<table border="0px">
     <caption><h1>Danh sách khách hàng</h1></caption>
     <tr>
         <th>STT</th>
@@ -23,31 +23,28 @@
         <th>Địa chỉ</th>
         <th>Ảnh</th>
     </tr>
-</table>
 <?php
 $customerlist = array (
         "1" => array("ten" => "Tống Văn Dũng",
-                      "ngaysinh" => "1989-0613",
+                      "ngaysinh" => "1989-06-13",
                        "diachi" => "Thanh Hóa",
-                        "anh" => "home/tong/images/image1.jpg",
-                         "2" => array("ten" => "Nguyễn Văn Nam",
+                        "anh" => "image/image1.jpg"),
+            "2" => array("ten" => "Nguyễn Văn Nam",
                  "ngaysinh" => "1983-08-20",
                  "diachi" => "Bắc Giang",
-                 "anh" => "images/img2.jpg"),
-    "3" => array("ten" => "Nguyễn Thái Hòa",
-                 "ngaysinh" => "1983-08-21",
+                "anh" => "images/img2.jpg"),
+   "3" => array("ten" => "Nguyễn Thái Hòa",
+                "ngaysinh" => "1983-08-21",
                  "diachi" => "Nam Định",
-                 "anh" => "images/img3.jpg"),
+                "anh" => "images/img3.jpg"),
     "4" => array("ten" => "Trần Đăng Khoa",
-                  "ngaysinh" => "1983-08-22",
+                 "ngaysinh" => "1983-08-22",
                   "diachi" => "Hà Tây",
                   "anh" => "images/img4.jpg"),
     "5" => array("ten" => "Nguyễn Đình Thi",
                   "ngaysinh" => "1983-08-17",
-                  "diachi" => "Hà Nội",
-                  "anh" => "images/img5.jpg")
-        )
-
+                 "diachi" => "Hà Nội",
+                 "anh" => "images/img5.jpg")
 );
 foreach($customerlist as $key => $values){
     echo "<tr>";
@@ -60,7 +57,12 @@ foreach($customerlist as $key => $values){
     
 }
 
+
+
 ?>
+</table>
+
+
 </body>
 </html>
 
